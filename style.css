@@ -1,0 +1,342 @@
+body {
+    margin: 0;
+    color: azure;
+    font-family: Roboto Condensed, Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #424453;
+}
+
+h1,
+h2 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+/* ..........................header............................... */
+.head {
+    background: #0079ba;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+}
+
+
+.head-1 {
+    display: flex;
+    vertical-align: middle;
+    color: azure;
+}
+
+.bi {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.menu {
+    font-weight: 600;
+    font-size: small;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.logo {
+    border: 1px solid azure;
+    width: 150px;
+    vertical-align: middle;
+}
+
+.search-area {
+    width: 500px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    padding: 0 40px 0 20px;
+    outline: none;
+    font-size: 15px;
+
+    z-index: 1;
+
+}
+
+.search-lense {
+    z-index: 2;
+    vertical-align: middle;
+    position: relative;
+    left: -35px;
+}
+
+.head-4 {
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.head-5 {
+    display: flex;
+    font-size: 13px;
+}
+
+.head-51 {
+    color: azure;
+    padding: 0 30px;
+    text-align: center;
+}
+
+/* ..........................section-2.......................... */
+.sec-2 {
+    margin: 30px 0;
+    background-image: url(img/a.png);
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec-21 {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.seperator {
+    border-left: 1px solid black;
+    height: 40px;
+}
+
+/* .................................section-3.................... */
+.posts {
+    color: black;
+    padding: 10px;
+    margin: 30px;
+    display: flex;
+    overflow-x: scroll;
+}
+
+.card {
+    border: 1px solid rgb(215, 209, 209);
+    border-radius: 5px;
+    width: 220px;
+    height: 350px;
+    padding: 10px;
+    color: black;
+    margin-right: 15px;
+}
+
+.price {
+    display: flex;
+    margin-top: 50px;
+}
+
+/* ............................................................... */
+.ad {
+    padding: 0 40px;
+    display: flex;
+}
+
+.ad-card {
+    border-radius: 10px;
+    width: 340px;
+    height: 390px;
+    filter: brightness(60%);
+
+    z-index: 1;
+    margin-right: 15px;
+
+}
+
+.ad-text {
+    z-index: 2;
+    position: relative;
+    color: azure;
+
+    top: -65px;
+    left: 20px;
+}
+
+/* ........................footer................................. */
+.footer {
+    margin: 30px 0;
+    color: #424453;
+    padding: 20px 10px;
+}
+
+.foot-1 {
+    display: flex;
+}
+
+.foot-11 {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding: 40px 0;
+    margin: 5px 5px;
+}
+
+.foot-111 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.foot-12 {
+    width: 20%;
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 5px 5px;
+}
+
+.foot-121 {
+    font-size: 13px;
+    padding: 5px 0;
+}
+
+.app-badge {
+    padding: 10px 0;
+}
+
+.foot-2 {
+    display: flex;
+}
+
+.foot-21 {
+    width: 80%;
+    margin: 5px 5px;
+    padding: 30px 0;
+}
+
+.foot-22 {
+    width: 20%;
+    margin: 5px 5px;
+    background: #f4f4f4;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+
+.foot-211 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-212 {
+    display: flex;
+    padding: 30px 10px;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    justify-content: space-around;
+}
+
+.foot-2121 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot-2123 {
+    padding: 0 20px;
+    border-right: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot-2124 {
+    display: flex;
+}
+
+.foot-21241 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.foot-21242 {
+    font-size: 15px;
+    border: 1px solid #424453;
+    padding: 5px 10px;
+    border-radius: 3px;
+    margin-left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ............................end-footer....................... */
+
+.end-footer {
+    text-align: center;
+    color: #424453;
+    margin-bottom: 50px;
+}
+
+.ef-1 {
+    margin: 30px 0;
+    font-size: large;
+}
+
+.foot-social {
+    display: flex;
+    margin: 30px 0;
+}
+
+.social-icon {
+    color: #424453;
+    font-size: 40px;
+    padding: 0 20px 0 0;
+}
+
+.foot-link-1 {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.foot-link-2 {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+
+.decath {
+    display: flex;
+}
+
+.decath::before {
+    content: url(img/footer-icons/stick.png);
+}
+
+.decath::after {
+    content: url(img/footer-icons/leaf.png);
+
+}
